@@ -1,0 +1,53 @@
+.education-section {
+  background: var(--bg-color); /* adapt to theme */
+  padding: 80px 20px;
+  transition: all 0.3s ease-in-out;
+}
+.education-section h2::after {
+  content: "";
+  width: 220px;
+  height: 4px;
+  background: #2563eb;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.education-container {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.education-card {
+  background: var(--card-bg); /* theme card */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-4px);
+}
+
+.education-card h3 {
+  font-size: 1.3rem;
+  color: #2563eb; /* keep brand blue */
+  margin-bottom: 5px;
+}
+
+.education-card h4 {
+  font-size: 1.1rem;
+  color: var(--text-color); /* adapt to theme */
+  margin-bottom: 5px;
+}
+
+.education-year {
+  font-size: 0.95rem;
+  color: var(--text-color); /* adapt year */
+  opacity: 0.7; /* softer look */
+  margin-bottom: 10px;
+}

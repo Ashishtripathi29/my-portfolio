@@ -1,0 +1,26 @@
+.footer {
+  background: var(--card-bg); /* theme-aware background */
+  color: var(--text-color);   /* theme-aware text */
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #60a5fa; /* brand accent (light blue) */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #93c5fd; /* lighter blue hover */
+  transform: scale(1.1);
+}
