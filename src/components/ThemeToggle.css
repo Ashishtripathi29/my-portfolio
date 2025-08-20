@@ -10,9 +10,43 @@
   cursor: pointer;
   font-size: 1.2rem;
   transition: all 0.3s ease-in-out;
-  z-index: 2000; 
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .theme-toggle:hover {
   transform: scale(1.1);
+}
+
+/* On mobile: smaller */
+@media (max-width: 768px) {
+  .theme-toggle {
+    font-size: 1rem;
+    padding: 6px 8px;
+    top: 15px;
+    right: 15px;
+  }
+}
+
+/* On very small screens: hide it */
+@media (max-width: 480px) {
+  .theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    background: var(--card-bg);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
