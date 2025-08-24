@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -15,7 +15,6 @@ body {
   line-height: 1.6;
   transition: all 0.3s ease-in-out;
 }
-
 
 /* Section Base */
 section {
@@ -54,8 +53,17 @@ h2 {
 
 /* Apply variables globally */
 
-
-.card, .interest-card {
+.card,
+.interest-card {
   background-color: var(--card-bg);
   transition: all 0.3s ease-in-out;
+}
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #000; /* fallback */
+  color: white; /* for text visibility */
 }
