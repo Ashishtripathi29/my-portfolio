@@ -58,12 +58,3 @@ h2 {
   background-color: var(--card-bg);
   transition: all 0.3s ease-in-out;
 }
-body,
-html,
-#root {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  background: #000; /* fallback */
-  color: white; /* for text visibility */
-}

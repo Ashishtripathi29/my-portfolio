@@ -9,14 +9,14 @@ import Interests from "./components/Interests";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ThemeToggle from "./components/ThemeToggle"; // adjust path
-import Background from "./components/Background";
+
 
 import "./App.css";
 
 function App() {
   return (
-    <div style={{ position: "relative", overflow: "hidden" }}>
-      <Background />
+    <>
+      
       <ThemeToggle />
       <Navbar />
       <About />
@@ -27,7 +27,7 @@ function App() {
       <Interests />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 
