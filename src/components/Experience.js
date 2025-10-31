@@ -8,7 +8,7 @@ function Experience() {
       role: "Software Engineer",
       company: "Trident Analytical Solutions",
       location: "Noida, Uttar Pradesh",
-      duration: "Mar 2023 – JUn 2025",
+      duration: "Mar 2023 – Sept 2025",
       icon: "",
       logo: "./TAS.png",
       points: [
