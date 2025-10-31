@@ -10,11 +10,13 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ThemeToggle from "./components/ThemeToggle"; // adjust path
 
+
 import "./App.css";
 
 function App() {
   return (
     <>
+      
       <ThemeToggle />
       <Navbar />
       <About />
